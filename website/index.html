@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="School Logo">
+            <h1 class="intro">NAZARITE INT'L COLLEGE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#news-events">News & Events</a></li>
+                <li><a href="admission.html">ADMISSION</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+                <li><a href="#enroll" class="active">Portal</a></li>
+            </ul>
+        </nav>
+        
+        
+    </header>
+    
+    <div class="top-contact">
+        <span><i class="fas fa-envelope"></i> <a href="mailto:samuelonatunde@gmail.com">samuelonatunde@gmail.com</a></span>
+        <span><i class="fas fa-phone-alt"></i> <a href="tel:+2348012345678">+234 7044002129</a></span>
+    </div>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>WELCOME TO NAZARITE INT'L COLLEGE!!</h1>
+            <marquee><h2>Now accepting applications for the 2024/2025 school year.</h2></marquee>
+            <a href="#Admmsions" class="btn red">Click here to Apply for Admissions</a>
+        </div>
+    </section>
+    
+    <section id="gallery" class="gallery">
+        <h2>Meet Our Leadership & Prefects</h2>
+    
+        <!-- School Leadership Section -->
+        <div class="leadership">
+            <div class="leader">
+                <img src="schoolhead.jpg" alt="School Head">
+                <h3>Dr. John Doe</h3>
+                <p>School Head</p>
+            </div>
+            <div class="leader">
+                <img src="principal.jpg" alt="Principal">
+                <h3>Mrs. Jane Smith</h3>
+                <p>Principal</p>
+            </div>
+            <div class="leader">
+                <img src="viceprincipal.jpg" alt="Vice Principal">
+                <h3>Mr. Mark Williams</h3>
+                <p>Vice Principal</p>
+            </div>
+        </div>
+    
+        <!-- Prefect Section -->
+        <h2>School Prefects</h2>
+        <div class="prefects">
+            <div class="prefect">
+                <img src="headboy.jpg" alt="Head Prefect">
+                <h3>John Adams</h3>
+                <p>Head Boy</p>
+            </div>
+            <div class="prefect">
+                <img src="headgirl.jpg" alt="Head Girl">
+                <h3>Mary Johnson</h3>
+                <p>Head Girl</p>
+            </div>
+            <div class="prefect">
+                <img src="allprefect.jpg" alt="Sports Prefect">
+                <h3>Michael Brown</h3>
+                <p>Sports Prefect</p>
+            </div>
+        </div>
+    
+        <!-- General School Photos Section -->
+        <h2>School Memories</h2>
+        <div class="photo-gallery">
+            <img src="schoolbuilding.jpg" alt="School Building">
+            <img src="schoolclass.jpg" alt="Classroom">
+            <img src="schoolbus.jpg" alt="Schoolbus">
+            <img src="library.jpg" alt="Library">
+            <img src="field.jpg" alt="Sports Field">
+        </div>
+    </section>
+    
+
+    <section id="news-events" class="news-events">
+        <h2>📢 News & Events</h2>
+    
+        <!-- Full School Prefect Group Photo with Names -->
+        <div class="prefect-group">
+            <h3>🏅 Meet Our 2024/2025 School Prefects</h3>
+            <img src="allschoolprefect.jpg" alt="School Prefects">
+            <div class="prefect-names">
+                <p><strong>Front Row:</strong> John Adams (Head Boy), Mary Johnson (Head Girl), David Smith (Deputy Head Boy), Sarah Wilson (Deputy Head Girl)</p>
+                <p><strong>Back Row:</strong> Michael Brown (Sports Prefect), Angela Thomas (Library Prefect), James Scott (Health Prefect), Sophia Green (Social Prefect)</p>
+            </div>
+        </div>
+    
+        <!-- Inauguration of School Prefects -->
+        <div class="event">
+            <h3>🎉 Inauguration of School Prefects</h3>
+            <img src="inauguration.jpg" alt="Inauguration Ceremony">
+            <p>The official inauguration of the 2024/2025 school prefects took place on <strong>March 10, 2025</strong>. The event was graced by the presence of the school principal, staff, and parents. Congratulations to all our newly appointed prefects! 🎓✨</p>
+        </div>
+    
+        <!-- Letter for Parents Section -->
+        <div class="letter-to-parents">
+            <h3>📩 A Special Letter to Parents</h3>
+            <p>Dear Parents,</p>
+            <p>We sincerely appreciate your unwavering support in shaping our students' futures. As we welcome the new prefects, we urge all parents to encourage their children to uphold the values of leadership, discipline, and excellence. Together, we will continue to build a school that nurtures greatness.</p>
+            <p><strong>Signed,</strong><br>Mrs. Jane Smith (Principal)</p>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! Reach out to us using the form below or visit us at our school.</p>
+    
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <p id="formMessage"></p>
+                </div>
+    
+                <!-- Contact Details -->
+                <div class="contact-details">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 School Road, Lagos, Nigeria</p>
+                    <p><i class="fas fa-phone-alt"></i> +234 801 234 5678</p>
+                    <p><i class="fas fa-envelope"></i> contact@schoolname.com</p>
+    
+                    <!-- Social Media Icons -->
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Google Map -->
+            <div class="map-container">
+                <h3>Find Us Here</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.344662293978!2d3.2706091740464056!3d6.604021522224327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9066a3892e49%3A0xc8dfbf50c2754db6!2sHoney%20land%20College!5e0!3m2!1sen!2sng!4v1743631290726!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    
+<!-- Vision & Mission Modal -->
+<div id="visionMissionModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img src="logo.png" alt="School Logo" class="modal-logo">
+        <h3>WELCOME TO NAZARITE INT'L COLLEGE!</h3>
+        <h2>Our Vision</h2>
+        <p>To be a leading institution in academic excellence and character development.</p>
+        <h2>Our Mission</h2>
+        <p>To provide quality education that nurtures creativity, innovation, and lifelong learning.</p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
